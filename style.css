@@ -31,5 +31,25 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 200;
+}
+
+.indicatorgroup {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.indicator {
+    display: inline-block;
+    background: rgba(255, 255, 255, .25);
+    width: 30px;
+    height: 7px;
+}
+
+.activeindicator {
+    display: inline-block;
+    background: rgba(255, 255, 255, .5);
+    width: 30px;
+    height: 7px;
 }
