@@ -1,0 +1,68 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    margin: 85px auto;
+}
+
+section img {
+    position: absolute;
+}
+
+section img:nth-child(1) {
+    z-index: 0;
+}
+
+section img:nth-child(1):active {
+    z-index: 10;
+}
+
+section img:nth-child(2) {
+    z-index: 0;
+}
+
+section img:nth-child(2):active {
+    z-index: 10;
+}
+
+section img:nth-child(3) {
+    z-index: 0;
+}
+
+section img:nth-child(3):active {
+    z-index: 10;
+}
+
+section img:nth-child(4) {
+    z-index: 0;
+}
+
+section img:nth-child(4):active {
+    z-index: 10;
+}
+
+.nextpic {
+    position: absolute;
+    background: black;
+    height: 100%;
+    width: 20%;
+    z-index: 20;
+    right: 0;
+}
+
+p {
+    position: absolute;
+    font-size: 1.2em;
+    padding: 20px;
+    background: rgb(13, 162, 212);
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 200;
+}
